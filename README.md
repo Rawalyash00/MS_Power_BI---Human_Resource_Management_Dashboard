@@ -1,1 +1,1 @@
-# Power-BI-Amazon-Dashboard
+# Power-BI-Human Resource Management -Dashboard
