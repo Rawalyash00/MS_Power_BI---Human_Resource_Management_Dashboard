@@ -1,4 +1,6 @@
 # MS_Power_BI - Human_Resource_Management_Dashboard
+![IMG_2172](https://github.com/user-attachments/assets/60138a7a-85d3-47ce-afbd-a8367a51c6bd)
+
 This project focuses on analyzing HR management data to uncover insights into top-performing departments and employees, trends in employee performance, and patterns in workforce behavior. The objective is to examine ways to enhance HR strategies and optimize organizational efficiency. The dataset utilized in this project was sourced from HR management databases.
 
 Purposes Of The Project
