@@ -1,32 +1,49 @@
-# MS_Power_BI - Human_Resource_Management_Dashboard
-![IMG_2172](https://github.com/user-attachments/assets/60138a7a-85d3-47ce-afbd-a8367a51c6bd)
+# Power BI — HR Analytics Dashboard
 
-This project focuses on analyzing HR management data to uncover insights into top-performing departments and employees, trends in employee performance, and patterns in workforce behavior. The objective is to examine ways to enhance HR strategies and optimize organizational efficiency. The dataset utilized in this project was sourced from HR management databases.
+![HR Dashboard](https://github.com/user-attachments/assets/60138a7a-85d3-47ce-afbd-a8367a51c6bd)
 
-Purposes Of The Project
-------------------------------------------------------------------------
-The core objective of this project is to harness HR management data using Power BI to gain insights into various factors influencing organizational performance across departments and employees. The aim is to analyze data pertaining to employee engagement, productivity, retention, and other HR metrics to optimize HR strategies and enhance overall organizational effectiveness. The dataset employed for this Power BI dashboard is sourced from HR management systems. 
+An interactive Power BI dashboard over HR management data, built to answer the questions an HR lead actually asks — who works here, what are we paying them, and where is the workforce heading.
 
-Questions To Answer
------------------------------------------------------------------------
-Questions Power bi dashboard 
-    - How amny People are in each job
-    
-    - Gender Breakdown of the staff
-    
-    - Age spread of the staff 
-    
-    - which Jobs pay more 
-    
-    - Top earners in each job 
-    
-    - Qualification Vs Salary 
-    
-    - Staff growth trend over time 
-    
-    - Employee filter by starting letter 
-    
-    - Leave balance analysis 
-    
-    - Quick HR Dashboard  
-    
+**Files:** `Final Project.pbix` (dashboard) · `hr-data.xlsx` (source data)
+
+---
+
+## Questions the dashboard answers
+
+**Workforce composition**
+- How many people are in each job role
+- Gender breakdown across the organisation
+- Age distribution of staff
+
+**Compensation**
+- Which roles pay most
+- Top earners within each role
+- Qualification against salary — does credential level track pay
+
+**Trends and operations**
+- Staff growth over time
+- Leave-balance analysis
+- Employee lookup, filtered by starting letter
+
+---
+
+## How it's built
+
+| | |
+|---|---|
+| **Tool** | Microsoft Power BI Desktop |
+| **Source** | Excel (`hr-data.xlsx`) |
+| **Modelling** | Power Query for cleaning and shaping; DAX measures for aggregates and ratios |
+| **Visuals** | Bar and column charts, distribution plots, cards, slicers for interactive filtering |
+
+---
+
+## Opening it
+
+1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+2. Open `Final Project.pbix`
+3. If prompted for the data source, point it at `hr-data.xlsx` in this repo
+
+---
+
+Built by [Yash Rawal](https://github.com/yaashhrawal).
